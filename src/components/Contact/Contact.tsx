@@ -1,5 +1,5 @@
 import "../../styles/contact.css";
-import React, {FormEvent, MutableRefObject, useContext, useRef, useState} from "react";
+import React, {FormEvent, MutableRefObject, useRef, useState} from "react";
 import {FaMobile, FaAt, FaMapMarker} from "react-icons/fa";
 import emailjs from "emailjs-com";
 import {FORM_SUBMISSION_MESSAGES, PERSONAL_INFORMATION} from "../../utils/constants";

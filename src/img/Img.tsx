@@ -4,7 +4,7 @@ const aboutImageLink = "https://images.pexels.com/photos/6330644/pexels-photo-63
 
 const Me = (): JSX.Element => <img src={Godlove} alt="" className="intro-img"/>;
 
-const AboutImage = (): JSX.Element => <img src={aboutImageLink} className="about-img"/>
+const AboutImage = (): JSX.Element => <img src={aboutImageLink} alt="" className="about-img"/>
 
 const ScrollButton = (): JSX.Element => {
     return (
