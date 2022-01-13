@@ -1,6 +1,10 @@
 import avertro from '../img/avertro.png';
 import larven from '../img/larven.png';
 import magwiji from '../img/magwiji.png';
+import adxlabs from '../img/adxlabs.png';
+import lighthouse from '../img/lighthouse.png';
+import tafu from '../img/tafu.png';
+
 import {formSubmissionMessages, personalInformation, project} from "./types";
 
 const PERSONAL_INFORMATION: personalInformation = {
@@ -21,32 +25,32 @@ const FORM_SUBMISSION_MESSAGES: formSubmissionMessages = {
 const PROJECTS: project[] = [
     {
         ID: 1,
-        IMAGE: avertro,
+        IMAGE: lighthouse,
         LINK: "#",
     },
     {
         ID: 2,
-        IMAGE: larven,
+        IMAGE: avertro,
         LINK: "#",
     },
     {
         ID: 3,
-        IMAGE: magwiji,
+        IMAGE: larven,
         LINK: "#",
     },
     {
         ID: 4,
-        IMAGE: "https://images.pexels.com/photos/3183131/pexels-photo-3183131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        IMAGE: magwiji,
         LINK: "#",
     },
     {
         ID: 5,
-        IMAGE: "https://images.pexels.com/photos/7887842/pexels-photo-7887842.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        IMAGE: adxlabs,
         LINK: "#",
     },
     {
         ID: 6,
-        IMAGE: "https://images.pexels.com/photos/7876708/pexels-photo-7876708.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        IMAGE: tafu,
         LINK: "#",
     },
 ];
