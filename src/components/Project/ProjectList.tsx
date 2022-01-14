@@ -7,7 +7,7 @@ import {PROJECTS} from "../../utils/constants";
  * @description Renders a list of projects
  * @returns {JSX.Element}
  */
-const ProjectList = () => {
+const ProjectList = (): JSX.Element => {
     return (
         <div className="project-list">
             <div className="project-list-texts">
