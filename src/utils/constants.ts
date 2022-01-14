@@ -11,7 +11,7 @@ const PERSONAL_INFORMATION: personalInformation = {
     FULL_NAME: 'Godlove Damian',
     PHONE_NUMBER: '+255 629 290 834',
     EMAIL: 'godlove@innocent.com',
-    ADDRESS: 'Nyuki road, Bahari beach, Dar es Salaam, Tanzania',
+    ADDRESS: 'Dar es Salaam, Tanzania',
 }
 
 const ACTIVITIES: string[] = ['Software Engineer', 'Grill Master', 'Traveller'];
@@ -26,32 +26,32 @@ const PROJECTS: project[] = [
     {
         ID: 1,
         IMAGE: lighthouse,
-        LINK: "#",
+        LINK: "https://www.lighthouse.app/insurance",
     },
     {
         ID: 2,
         IMAGE: avertro,
-        LINK: "#",
+        LINK: "https://www.avertro.com/",
     },
     {
         ID: 3,
         IMAGE: larven,
-        LINK: "#",
+        LINK: "https://www.larven.co.tz/",
     },
     {
         ID: 4,
         IMAGE: magwiji,
-        LINK: "#",
+        LINK: "https://magwiji.com/",
     },
     {
         ID: 5,
         IMAGE: adxlabs,
-        LINK: "#",
+        LINK: "https://www.adxlabs.com/",
     },
     {
         ID: 6,
         IMAGE: tafu,
-        LINK: "#",
+        LINK: "https://play.google.com/store/apps/details?id=com.tafu.tafu",
     },
 ];
 
