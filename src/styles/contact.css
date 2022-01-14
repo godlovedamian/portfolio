@@ -17,14 +17,24 @@
 
 .contact-left {
     flex: 1;
+    border : 1px solid #59b256;
+    border-bottom : 10px solid #59b256;
+    border-radius: 5px;
+    padding: 50px;
+    margin-right: 20px;
 }
 
 .contact-right {
+    border : 1px solid #59b256;
+    border-bottom : 10px solid #59b256;
+    border-radius: 5px;
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 20px;
+    padding: 50px;
 }
 
 .contact-title {
